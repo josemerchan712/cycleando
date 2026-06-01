@@ -1,0 +1,21 @@
+{
+  "name": "cycleando",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  },
+  "dependencies": {
+    "@tsparticles/engine": "^4.1.1",
+    "@tsparticles/slim": "^4.1.1",
+    "gsap": "^3.12.5",
+    "three": "^0.169.0",
+    "vanilla-tilt": "^1.8.1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "PowerShell(Get-ChildItem \"C:\\\\Program Files\\\\nodejs\" -ErrorAction SilentlyContinue; Get-ChildItem \"C:\\\\Program Files \\(x86\\)\\\\nodejs\" -ErrorAction SilentlyContinue; Get-ChildItem \"$env:APPDATA\\\\npm\" -ErrorAction SilentlyContinue; ls \"$env:ProgramFiles\\\\nodejs\" 2>$null)",
+      "PowerShell($env:PATH)",
+      "PowerShell(node --version)",
+      "PowerShell(npm --version)",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"c:\\\\Users\\\\X420\\\\OneDrive\\\\Escritorio\\\\cycleando\\\\src\")",
+      "PowerShell(cd \"c:\\\\Users\\\\X420\\\\OneDrive\\\\Escritorio\\\\cycleando\"; Start-Process powershell -ArgumentList \"-NoExit\", \"-Command\", \"cd 'c:\\\\Users\\\\X420\\\\OneDrive\\\\Escritorio\\\\cycleando'; npm run dev\" -WindowStyle Normal)"
+    ]
+  }
+}
